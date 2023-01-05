@@ -1,0 +1,292 @@
+@import url(https://fonts.google.com/specimen/Inter);
+body{
+    width: 1440px;
+    
+    margin: 0 auto;
+    padding: 0  auto;
+}
+.container{
+    height: 100vh;
+}
+
+.logo-img{
+position: relative;
+top: 60px;
+}
+.nav-bar{
+    text-align: right;
+    position: relative;
+    top: 15px;
+    right: 208px;
+}
+
+
+.nav-bar a{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.nav-bar a:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+}
+.img-web{
+    width: 796px;
+    position: relative;
+    top: 57px;
+}
+.future-news{
+    width: 300px;
+    font-family: 'Inter', sans-serif;
+}
+.future-title{
+    font-weight: 800;
+    font-size: 50px;
+    position: relative;
+    top:40px;
+}
+.future-p{
+    width: 345px;
+
+
+    font-weight: 400;
+    font-size: 16px;
+    text-align: start;
+
+    color: hsl(236, 13%, 42%);
+
+    position: relative;
+    left: 453px;
+    top: -182px
+}
+.future-news button{
+    width: 185px;
+    height: 50px;
+
+    border: none;
+
+    position: relative;
+    left: 453px;
+    bottom: 175px;
+
+    
+
+    background-color: hsl(5, 85%, 63%);
+    color: #fff;
+
+    background-color:hsl(5, 85%, 63%);
+    color: #fff;
+}
+.future-news button:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 0%);
+    
+}
+.aside{
+    font-family: 'Inter', sans-serif;
+
+    width: 350px;
+    height: 512px;
+
+    position: relative;
+    left: 826px;
+    bottom: 708px;
+
+    background-color: hsl(240, 100%, 5%);
+}
+.aside h1{
+
+    color: hsl(35, 77%, 62%);
+    font-weight: 700;
+    font-size: 30px;
+
+    position: relative;
+    left: 30px;
+    top: 40px;
+
+}
+.news1{
+
+    width: 280px;
+    height: 111px;
+
+    font-family: 'Inter', sans-serif;
+
+    position: relative;
+    top: 40px;
+    left: 30px;
+
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.news1 p{
+font-size: 15px;
+}
+.news1 h2{
+    font-size: 22px;
+}
+.news1 h2:hover{
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);
+}
+
+.news2{
+
+    width: 280px;
+    height: 111px;
+
+    font-family: 'Inter', sans-serif;
+
+    position: relative;
+    top: 53px;
+    left: 30px;
+
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.news2 h2{
+    font-size: 20px;
+}
+.news2 h2:hover{
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);
+}
+.news2 p{
+    font-size: 15px;
+}
+
+.news3{
+
+    width: 280px;
+    height: 111px;
+
+    font-family: 'Inter', sans-serif;
+
+    position: relative;
+    top: 67px;
+    left: 30px;
+
+    color: #fff;
+
+}
+
+.news3 h2{
+    font-size: 20px;
+}
+.news3 h2:hover{
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);
+}
+.news3 p{
+    font-size: 15px;
+}
+
+
+
+
+.news-footer{
+    font-family: 'Inter', sans-serif;
+
+    display: flex;
+    position: relative;
+    bottom: 587px;
+}
+.news-footer01{
+    width: 380px;
+    height: 128px;}
+
+
+    
+.news-footer01 h1{
+    position: relative;
+    bottom: 158px;
+    left: 126px;
+
+    color: hsl(233, 8%, 79%);
+}
+
+.news-footer01 h4{
+    font-weight: 800;
+    position: relative;
+    bottom: 172px;
+    left: 126px;
+}
+.news-footer01 h4:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+}
+.news-footer01 p{
+width: 218px;
+
+    position: relative;
+    bottom: 176px;
+    left: 126px;
+}
+
+.news-footer02{
+    width: 380px;
+    height: 128px;}
+
+
+    
+.news-footer02 h1{
+    position: relative;
+    bottom: 158px;
+    left: 126px;
+
+    color: hsl(233, 8%, 79%);
+}
+
+.news-footer02 h4{
+    font-weight: 800;
+    position: relative;
+    bottom: 172px;
+    left: 126px;
+}
+.news-footer02 h4:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+}
+.news-footer02 p{
+width: 218px;
+
+    position: relative;
+    bottom: 176px;
+    left: 126px;
+}
+
+.news-footer03{
+    width: 380px;
+    height: 128px;}
+
+
+    
+.news-footer03 h1{
+    position: relative;
+    bottom: 158px;
+    left: 126px;
+
+    color: hsl(233, 8%, 79%);
+}
+
+.news-footer03 h4{
+    font-weight: 800;
+    position: relative;
+    bottom: 172px;
+    left: 126px;
+}
+.news-footer03 h4:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+}
+.news-footer03 p{
+width: 230px;
+
+    position: relative;
+    bottom: 176px;
+    left: 126px;
+}
